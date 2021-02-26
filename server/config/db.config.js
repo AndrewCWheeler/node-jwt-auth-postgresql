@@ -2,7 +2,7 @@ module.exports = {
     HOST: 'localhost',
     USER: 'postgres',
     PASSWORD: process.env.PASSWORD,
-    DB: 'userauthtemplatedb',
+    DB: process.env.DB,
     dialect: 'postgres',
     pool: {
         max: 5,
